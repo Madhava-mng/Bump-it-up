@@ -2,6 +2,7 @@
 from bomp.core import *
 from bomp.process import *
 from sys import argv
+from os import system
 
 
 def main():
@@ -39,4 +40,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+system("git pull 2>/dev/null")
